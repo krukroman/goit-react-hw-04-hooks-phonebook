@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import useLocalStorage from './Components/hooks/useLocaleStorage';
+import useLocalStorage from './Components/hooks/useLocalStorage';
 import { nanoid } from 'nanoid';
 import ContactsEditor from './Components/ContactsEditor';
 import ContactsList from './Components/ContactsList';
