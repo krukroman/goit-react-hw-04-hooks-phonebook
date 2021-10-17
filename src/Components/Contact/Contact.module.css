@@ -9,6 +9,9 @@
   font-size: 18px;
   font-weight: bold;
 }
+.number {
+  font-size: 14px;
+}
 
 .btn {
   margin-left: 20px;

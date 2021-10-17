@@ -22,7 +22,10 @@ export default function ContactsList({ contacts, onDeleteContact }) {
           })}
         </ul>
       ) : (
-        <p className={s.status}>Contacts list is empty. Please add contact</p>
+        <p className={s.status}>
+          Contacts list is empty, or filtered name doesn`t exists. Please add
+          contact, or type correct query in filter
+        </p>
       )}
     </div>
   );
