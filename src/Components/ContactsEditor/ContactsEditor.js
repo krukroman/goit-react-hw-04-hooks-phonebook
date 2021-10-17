@@ -1,6 +1,6 @@
 import { useState } from 'react';
-
 import { nanoid } from 'nanoid';
+import PropTypes from 'prop-types';
 
 import s from './ContactsEditor.module.css';
 
@@ -70,3 +70,7 @@ export default function ContactsEditor({ onSubmit }) {
     </div>
   );
 }
+
+ContactsEditor.propTypes = {
+  onSubmit: PropTypes.func.isRequired,
+};
