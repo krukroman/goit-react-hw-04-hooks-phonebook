@@ -30,7 +30,7 @@ export default class App extends Component {
     }
   }
 
-  addContact = ({ name, number }) => {
+  addContact = (name, number) => {
     if (!this.isContactExist(name)) {
       const newContact = {
         id: nanoid(),
